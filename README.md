@@ -37,3 +37,12 @@ An example of how to proxy redlib traffic through wireguard in user space, with
 a very strict security context.
 
 [https://github.com/uhthomas/automata/blob/95dd2a984f511034b05c750dd7fe7c2b26357ff7/k8s/magiclove/redlib/deployment_list.cue#L27](https://github.com/uhthomas/automata/blob/95dd2a984f511034b05c750dd7fe7c2b26357ff7/k8s/magiclove/redlib/deployment_list.cue#L27)
+
+The config, with sensitive information redacted, mounted is:
+
+```text
+private_key=<hex encoded private key>
+public_key=<hex encoded public key>
+allowed_ip=0.0.0.0/0
+endpoint=<wireguard server ip>:51820
+```
