@@ -9,7 +9,7 @@ It can be run as a rootless container, so it can be run in Kubernetes with no
 permissions at all.
 
 Use the image
-`ghcr.io/uhthomas/socks5-wireguard-proxy@sha256:bd532015f7621733a0cda03a357dcbe68221398f38188b77c283588625e5631a`.
+`ghcr.io/uhthomas/socks5-wireguard-proxy:latest`.
 
 Provide the wireguard interface address with `--wireguard-address`.
 
