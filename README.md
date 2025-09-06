@@ -30,3 +30,10 @@ endpoint=192.168.1.1:51820
 
 I learned the hard way that ordering of these IPC commands matters, and the
 endpoint must come last or it won't work.
+
+## Example
+
+An example of how to proxy redlib traffic through wireguard in user space, with
+a very strict security context.
+
+[https://github.com/uhthomas/automata/blob/95dd2a984f511034b05c750dd7fe7c2b26357ff7/k8s/magiclove/redlib/deployment_list.cue#L27](https://github.com/uhthomas/automata/blob/95dd2a984f511034b05c750dd7fe7c2b26357ff7/k8s/magiclove/redlib/deployment_list.cue#L27)
